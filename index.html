@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password generator</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Password generator</h1>
+        <h2>The password : <b></b></h2>
+        <ul class="ul">
+            <li>Lowercase Characters (a,b,c,d,e,...)</li>
+            <li>Uppercase Characters (A,B,C,D,E,...)</li>
+            <li>Numbers (1,2,3,4,5,...)</li>
+            <li>Symbols (#,@,%,$,*,...)</li>
+        </ul>
+        <input type="number">
+        <button>Generate!</button>
+    </body>
+    <style>
+        * {
+            font-weight: 300;
+        }
+        b {
+            font-weight: 500;
+        }
+        .active {
+            color: chartreuse;
+        }
+    </style>
+    <script src="js.js"></script>
+</html>
